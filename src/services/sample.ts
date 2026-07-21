@@ -1,0 +1,24 @@
+// src/services/sample.ts
+// Bundled sample transcript so reviewers can try the dashboard without
+// supplying their own conversation. Loaded via the "Try sample" button.
+
+export const SAMPLE_TRANSCRIPT = `Coach: Hey Sarah, how did this week go for you?
+Sarah: Honestly, it was rough. Work has been brutal — we had a product launch on Wednesday and I was in the office until 9pm three nights.
+Coach: I'm sorry to hear that. Did that affect your workouts?
+Sarah: Yeah, I only got to the gym once. I usually do three sessions but I just couldn't fit it in. I did walk to and from the train every day, maybe 8,000 steps a day? I'm not totally sure.
+Coach: Got it. What about nutrition?
+Sarah: I tried to keep on plan but I skipped lunch twice because of back-to-back meetings. I had a protein shake instead. Dinners were okay.
+Coach: How are you sleeping?
+Sarah: Pretty badly. I slept about five hours a night. I kept waking up around 3am thinking about the launch.
+Coach: That sounds stressful. Any other symptoms?
+Sarah: I've had a headache almost every day and I feel really tired. My stomach was also a bit off, kind of bloated, probably from coffee and not enough water.
+Coach: How much water are you drinking?
+Sarah: Honestly, probably not enough. Maybe three glasses a day. I know I should do more.
+Coach: Anything on the home front?
+Sarah: My mom is visiting this weekend, which I'm excited about, but I know that's another thing on my plate.
+Coach: What's your motivation level right now?
+Sarah: I'd say medium. I want to stay on track but I'm tired. I'm a little overwhelmed.
+Coach: That makes total sense. Let's keep the plan simple this week — two workouts, focus on sleep, and aim for 6 glasses of water a day. Sound okay?
+Sarah: Yes, that feels doable. I'll also send you a photo of one meal so you can see what I'm eating.`;
+
+export const SAMPLE_TRANSCRIPT_NAME = 'Sarah M. — Week 14';

@@ -1,0 +1,122 @@
+{
+  "id": "analysis_sample_001",
+  "generatedAt": "2026-07-21T09:30:00.000Z",
+  "sourceTranscriptId": "transcript_sarah_week_14",
+  "weekly_summary": "Client medium-engagement week. Nutrition: below plan. Sleep ~5 hours. Water inadequate. Exercise: some sessions reported.",
+  "weekly_summary_evidence": "Sarah: Honestly, it was rough.",
+  "weekly_summary_confidence": 78,
+  "nutrition": {
+    "status": "Below plan — client reports skipped lunch twice and inconsistent dinners.",
+    "classification": "Client Report",
+    "confidence": 82,
+    "evidence": "I tried to keep on plan but I skipped lunch twice because of back-to-back meetings.",
+    "notes": "No calorie estimation performed. Coach should ask for one meal photo."
+  },
+  "exercise": {
+    "workouts": {
+      "value": "Some sessions reported",
+      "evidence": "I only got to the gym once. I usually do three sessions but I just couldn't fit it in.",
+      "confidence": 80,
+      "classification": "Client Report"
+    },
+    "walking": {
+      "value": "Walking mentioned",
+      "evidence": "I did walk to and from the train every day, maybe 8,000 steps a day?",
+      "confidence": 75,
+      "classification": "Client Report"
+    },
+    "step_count": {
+      "value": "~8,000 steps",
+      "evidence": "maybe 8,000 steps a day? I'm not totally sure.",
+      "confidence": 70,
+      "classification": "Client Report"
+    },
+    "consistency": {
+      "value": "Inconsistent",
+      "evidence": "I usually do three sessions but I just couldn't fit it in.",
+      "confidence": 78,
+      "classification": "AI Inference"
+    }
+  },
+  "sleep": {
+    "hours": {
+      "value": "5 hours (client-reported)",
+      "evidence": "I slept about five hours a night.",
+      "confidence": 90,
+      "classification": "Client Report"
+    },
+    "quality": {
+      "value": "Poor",
+      "evidence": "I kept waking up around 3am thinking about the launch.",
+      "confidence": 80,
+      "classification": "AI Inference"
+    },
+    "insomnia": {
+      "value": "Not reported",
+      "evidence": "No mention of insomnia or difficulty falling asleep.",
+      "confidence": 50,
+      "classification": "Missing Information"
+    },
+    "disturbances": {
+      "value": "Reported",
+      "evidence": "I kept waking up around 3am",
+      "confidence": 75,
+      "classification": "Client Report"
+    }
+  },
+  "water": {
+    "status": "Inadequate",
+    "evidence": "Maybe three glasses a day. I know I should do more.",
+    "confidence": 80,
+    "classification": "Client Report"
+  },
+  "symptoms": {
+    "items": [
+      { "symptom": "headache", "present": true, "evidence": "I've had a headache almost every day", "confidence": 85 },
+      { "symptom": "fatigue", "present": true, "evidence": "I feel really tired", "confidence": 85 },
+      { "symptom": "illness", "present": false, "evidence": "No mention of illness in transcript.", "confidence": 0 },
+      { "symptom": "digestive_issues", "present": true, "evidence": "My stomach was also a bit off, kind of bloated", "confidence": 80 },
+      { "symptom": "soreness", "present": false, "evidence": "No mention of soreness in transcript.", "confidence": 0 },
+      { "symptom": "other", "present": false, "evidence": "No other symptoms mentioned.", "confidence": 0 }
+    ],
+    "classification": "Client Report",
+    "evidence": "I've had a headache almost every day and I feel really tired. My stomach was also a bit off, kind of bloated.",
+    "confidence": 84,
+    "notes": "Symptoms are reported only — not diagnosed. Severity is not inferred."
+  },
+  "stress": {
+    "value": "High",
+    "evidence": "Work has been brutal — we had a product launch on Wednesday and I was in the office until 9pm three nights.",
+    "confidence": 82,
+    "classification": "Client Report"
+  },
+  "engagement": {
+    "value": "Medium",
+    "evidence": "I'd say medium. I want to stay on track but I'm tired. I'm a little overwhelmed.",
+    "confidence": 72,
+    "classification": "AI Inference",
+    "notes": "Derived from response length and self-described state. Coach should validate."
+  },
+  "barriers": [
+    { "barrier": "work", "description": "Work-related demands", "evidence": "Work has been brutal — we had a product launch on Wednesday", "confidence": 85 },
+    { "barrier": "family", "description": "Family obligations", "evidence": "My mom is visiting this weekend", "confidence": 75 },
+    { "barrier": "motivation", "description": "Motivation challenge", "evidence": "I want to stay on track but I'm tired. I'm a little overwhelmed.", "confidence": 70 }
+  ],
+  "pending_actions": [
+    { "action": "Confirm water intake volume (glasses/oz)", "rationale": "Water status is inadequate. Ask for a specific daily amount.", "evidence": "Maybe three glasses a day." },
+    { "action": "Follow up on reported symptoms — onset, duration, severity", "rationale": "Multiple symptoms reported; coach should clarify before any program change.", "evidence": "Headache, fatigue, bloating reported." },
+    { "action": "Share photo of one meal this week", "rationale": "Standard accountability action — provides visual evidence for next review." }
+  ],
+  "risk_flags": [
+    { "flag": "Very poor sleep", "severity": "high", "evidence": "I slept about five hours a night.", "category": "sleep" },
+    { "flag": "High reported stress", "severity": "high", "evidence": "Work has been brutal", "category": "stress" },
+    { "flag": "Multiple symptoms reported", "severity": "medium", "evidence": "Headache, fatigue, bloating reported.", "category": "symptoms" },
+    { "flag": "Nutrition off-plan", "severity": "medium", "evidence": "I skipped lunch twice", "category": "nutrition" }
+  ],
+  "coach_recommendation": "Review sleep hygiene and explore a wind-down routine. Ask about daily water intake and set a specific target. Follow up on reported symptoms — ask about onset, duration, and severity.",
+  "coach_recommendation_rationale": "Recommendation derived from highest-confidence gaps. No medical advice is given — coach is advised to gather more information before any program change.",
+  "coach_recommendation_confidence": 76,
+  "human_review": {
+    "status": "Pending"
+  }
+}
